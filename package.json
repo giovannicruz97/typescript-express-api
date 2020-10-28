@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development ts-node-dev --inspect=0.0.0.0:9222 index.ts",
     "build": "npx tsc",
+    "commit": "npx git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
